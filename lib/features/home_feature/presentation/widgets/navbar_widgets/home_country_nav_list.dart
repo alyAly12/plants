@@ -10,7 +10,7 @@ class HomeCountryNavEntity {
 
 class HomeCountryNavList {
   static List<HomeCountryNavEntity> homeCountryNavList = [
-    HomeCountryNavEntity(cityTitle: AppStrings.all,''),
+    HomeCountryNavEntity(cityTitle: AppStrings.all,'',isSelected:true),
     HomeCountryNavEntity(cityTitle: AppStrings.palestine, 'pal'),
     HomeCountryNavEntity(cityTitle: AppStrings.sudan,'sud' ),
     HomeCountryNavEntity(cityTitle: AppStrings.myanmar,'mya' ),

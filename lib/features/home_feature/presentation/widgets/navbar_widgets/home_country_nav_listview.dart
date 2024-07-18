@@ -12,14 +12,7 @@ class HomeCountryNavListView extends StatefulWidget {
 }
 
 class _HomeCountryNavListViewState extends State<HomeCountryNavListView> {
-  final List<String>cityId=[
-    '',
-  'pal',
-  'sud',
-  'mya',
-  'mya',
-  'mya'
-  ];
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -42,7 +35,7 @@ class _HomeCountryNavListViewState extends State<HomeCountryNavListView> {
                 onTap: ()async {
                   setState(() {
                     HomeCountryNavList.homeCountryNavList[index].isSelected =
-                        !HomeCountryNavList.homeCountryNavList[index].isSelected;
+                    !HomeCountryNavList.homeCountryNavList[index].isSelected;
                     HomeCountryNavList.homeCountryNavList[index].zoneId=
                         HomeCountryNavList.homeCountryNavList[index].zoneId;
                   });
