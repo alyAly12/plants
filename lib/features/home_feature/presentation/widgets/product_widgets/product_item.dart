@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:plants/core/component/custom_text_widget.dart';
 import 'package:plants/core/utils/app_route.dart';
 import 'package:plants/core/utils/app_strings.dart';
 import 'package:plants/features/home_feature/presentation/widgets/product_widgets/product_item_info.dart';

@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:plants/features/home_feature/data/models/home_plants_resposne_model.dart';
 import 'package:plants/features/home_feature/domain/entity/home_plants_response_entity.dart';
 import '../../../../core/base_usecase/base_usecase.dart';
 import '../../domain/usecase/get_all_plants_usecase.dart';

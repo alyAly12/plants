@@ -29,7 +29,7 @@ class ProductItemListView extends StatelessWidget {
             child: ListView.builder(
                 itemCount: 10,
                 itemBuilder: (context, index) {
-                  return ProductItem(
+                  return const ProductItem(
                     image: 'https://fakeimg.pl/600x400',
                     nameDesc: 'N/A',
                     yearDesc: 0,

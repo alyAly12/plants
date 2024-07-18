@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:plants/core/component/custom_text_widget.dart';
 import 'package:plants/core/utils/app_colors.dart';
 import 'package:plants/core/utils/app_strings.dart';
-import 'package:plants/features/home_feature/data/models/home_plants_resposne_model.dart';
 import 'package:plants/features/home_feature/presentation/bloc/home_bloc.dart';
 import 'package:plants/features/home_feature/presentation/widgets/home_view_body.dart';
 
